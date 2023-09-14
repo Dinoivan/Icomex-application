@@ -28,7 +28,6 @@ export function Header({setMenuOpen,menuOpen,Imagenes,loading,userIniciales,user
                         <p className="header__texto-p">Sociedad Cerámica Lima</p>   
                     </section>
 
-                    
                     <div className="header__opcion" onClick={() => setShowLogoutPopup(!showLogoutPopup)}>  
                     <span></span>
                     {showLogoutPopup && <div className="logout-popup">
