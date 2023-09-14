@@ -79,9 +79,7 @@
     margin-bottom: 0px;
   }
 
-
-  @media(max-width:900px){
-    /* Section bienvenido */
+  @media((min-width: 0) and (max-width: 375px)){
 
     .bienvenido{
       flex-direction: column;
@@ -127,6 +125,62 @@
 
     .bienvenido__formulario input[type="text"]{
       width: 275px;
+      z-index: 1;
+      padding: 0.8rem 0.0rem 0.8rem 3.7rem;
+      margin-left: 1px;
+      outline: none;
+
+    }
+
+  }
+
+  @media((min-width: 375px) and (max-width:900px)){
+    /* Section bienvenido */
+
+    .bienvenido{
+      flex-direction: column;
+    }
+
+
+    .bienvenido__texto{
+      margin-top: 15px;
+      margin-left: 0px;
+      color: white;
+
+    }
+
+    .bienvenido__texto--abierto{
+      margin-top: 15px;
+      margin-left: 0;
+    }
+
+    .bienvenido__texto h1{
+      font-size: 1.7rem;
+
+    }
+    
+    .bienvenido__texto--abierto h1{
+      font-size: 1.7rem;
+    }
+
+
+    .bienvenido__texto p{
+      font-size: 1.2rem;
+
+    }
+
+    .bienvenido__texto--abierto p{
+      font-size: 1.2rem;
+    }
+
+    .bienvenido__formulario{
+      margin-left: 150px;
+      margin-top: 30px;
+
+    }
+
+    .bienvenido__formulario input[type="text"]{
+      width: 310px;
       z-index: 1;
       padding: 0.8rem 0.0rem 0.8rem 3.7rem;
       margin-left: 1px;
