@@ -124,7 +124,8 @@
     }
 
     .bienvenido__formulario input[type="text"]{
-      width: 275px;
+      width: 270px;
+      margin-right: 5px;
       z-index: 1;
       padding: 0.8rem 0.0rem 0.8rem 3.7rem;
       margin-left: 1px;
@@ -170,7 +171,7 @@
     }
 
     .bienvenido__texto--abierto p{
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
 
     .bienvenido__formulario{
@@ -180,7 +181,8 @@
     }
 
     .bienvenido__formulario input[type="text"]{
-      width: 310px;
+      width: 305px;
+      margin-right: 10px;
       z-index: 1;
       padding: 0.8rem 0.0rem 0.8rem 3.7rem;
       margin-left: 1px;
